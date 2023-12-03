@@ -86,7 +86,6 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task0.V26
             this.textBoxCondition_MSE.Size = new System.Drawing.Size(483, 176);
             this.textBoxCondition_MSE.TabIndex = 0;
             this.textBoxCondition_MSE.Text = "Дано выражение, вычислить его значение при x = 3";
-            this.textBoxCondition_MSE.TextChanged += new System.EventHandler(this.textBoxCondition_MSE_TextChanged);
             // 
             // textBoxResult_MSE
             // 
@@ -132,6 +131,7 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task0.V26
             this.labelResult_MSE.Size = new System.Drawing.Size(59, 13);
             this.labelResult_MSE.TabIndex = 6;
             this.labelResult_MSE.Text = "Результат";
+            this.labelResult_MSE.Click += new System.EventHandler(this.labelResult_MSE_Click);
             // 
             // FormMain
             // 

@@ -57,5 +57,10 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task0.V26
         {
 
         }
+
+        private void labelResult_MSE_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
