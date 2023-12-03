@@ -53,7 +53,9 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task0.V26
             MessageBox.Show("Таск 0, Вариант 26, выполнил студент группы ИИПб-23-2 Мезенцев Семён Евгеньевич", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
 
-       
-        
+        private void textBoxCondition_MSE_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

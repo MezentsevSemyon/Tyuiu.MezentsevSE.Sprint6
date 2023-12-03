@@ -86,6 +86,7 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task0.V26
             this.textBoxCondition_MSE.Size = new System.Drawing.Size(483, 176);
             this.textBoxCondition_MSE.TabIndex = 0;
             this.textBoxCondition_MSE.Text = "Дано выражение, вычислить его значение при x = 3";
+            this.textBoxCondition_MSE.TextChanged += new System.EventHandler(this.textBoxCondition_MSE_TextChanged);
             // 
             // textBoxResult_MSE
             // 
