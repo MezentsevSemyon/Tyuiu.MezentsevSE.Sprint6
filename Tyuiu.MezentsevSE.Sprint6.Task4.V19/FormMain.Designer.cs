@@ -29,10 +29,10 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task4.V19
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            System.Windows.Forms.DataVisualization.Charting.Title title1 = new System.Windows.Forms.DataVisualization.Charting.Title();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.Title title3 = new System.Windows.Forms.DataVisualization.Charting.Title();
             this.panelUp_MSE = new System.Windows.Forms.Panel();
             this.buttonInfo_MSE = new System.Windows.Forms.Button();
             this.buttonSave_MSE = new System.Windows.Forms.Button();
@@ -77,7 +77,7 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task4.V19
             // buttonInfo_MSE
             // 
             this.buttonInfo_MSE.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.buttonInfo_MSE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.buttonInfo_MSE.BackColor = System.Drawing.Color.DodgerBlue;
             this.buttonInfo_MSE.Location = new System.Drawing.Point(637, 8);
             this.buttonInfo_MSE.Margin = new System.Windows.Forms.Padding(2);
             this.buttonInfo_MSE.Name = "buttonInfo_MSE";
@@ -89,8 +89,8 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task4.V19
             // 
             // buttonSave_MSE
             // 
-            this.buttonSave_MSE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.buttonSave_MSE.Location = new System.Drawing.Point(548, 8);
+            this.buttonSave_MSE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonSave_MSE.Location = new System.Drawing.Point(546, 8);
             this.buttonSave_MSE.Margin = new System.Windows.Forms.Padding(2);
             this.buttonSave_MSE.Name = "buttonSave_MSE";
             this.buttonSave_MSE.Size = new System.Drawing.Size(73, 79);
@@ -101,7 +101,7 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task4.V19
             // 
             // buttonDone_MSE
             // 
-            this.buttonDone_MSE.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(128)))));
+            this.buttonDone_MSE.BackColor = System.Drawing.Color.Lime;
             this.buttonDone_MSE.Location = new System.Drawing.Point(454, 8);
             this.buttonDone_MSE.Margin = new System.Windows.Forms.Padding(2);
             this.buttonDone_MSE.Name = "buttonDone_MSE";
@@ -207,26 +207,26 @@ namespace Tyuiu.MezentsevSE.Sprint6.Task4.V19
             // 
             // chartFunc_MSE
             // 
-            chartArea1.Name = "ChartArea1";
-            this.chartFunc_MSE.ChartAreas.Add(chartArea1);
+            chartArea3.Name = "ChartArea1";
+            this.chartFunc_MSE.ChartAreas.Add(chartArea3);
             this.chartFunc_MSE.Dock = System.Windows.Forms.DockStyle.Fill;
-            legend1.Enabled = false;
-            legend1.Name = "Legend1";
-            this.chartFunc_MSE.Legends.Add(legend1);
+            legend3.Enabled = false;
+            legend3.Name = "Legend1";
+            this.chartFunc_MSE.Legends.Add(legend3);
             this.chartFunc_MSE.Location = new System.Drawing.Point(0, 0);
             this.chartFunc_MSE.Margin = new System.Windows.Forms.Padding(2);
             this.chartFunc_MSE.Name = "chartFunc_MSE";
-            series1.ChartArea = "ChartArea1";
-            series1.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
-            series1.Legend = "Legend1";
-            series1.Name = "Series1";
-            this.chartFunc_MSE.Series.Add(series1);
+            series3.ChartArea = "ChartArea1";
+            series3.ChartType = System.Windows.Forms.DataVisualization.Charting.SeriesChartType.Spline;
+            series3.Legend = "Legend1";
+            series3.Name = "Series1";
+            this.chartFunc_MSE.Series.Add(series3);
             this.chartFunc_MSE.Size = new System.Drawing.Size(718, 259);
             this.chartFunc_MSE.TabIndex = 0;
             this.chartFunc_MSE.Text = "chartFunc";
-            title1.Name = "TitleFunc";
-            title1.Text = "График функции (5*x+2,5) / (Sin(x)-2) + 2 ";
-            this.chartFunc_MSE.Titles.Add(title1);
+            title3.Name = "TitleFunc";
+            title3.Text = "График функции (5*x+2,5) / (Sin(x)-2) + 2 ";
+            this.chartFunc_MSE.Titles.Add(title3);
             // 
             // panelLeft_MSE
             // 
